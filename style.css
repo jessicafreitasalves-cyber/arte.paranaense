@@ -1,16 +1,22 @@
 Body{
      background-color: green;
-     colo: yellow
+     color: yellow
+     font-family: Arial, sans-serif;
 }
 header{
-    backgrond-colo:#3F4D00;
+    backgrond-color:#3F4D00;
     color:#3F4D00;
+    text-align: center;
+    padding: 30px;
 }
-main{
-    background-color:#4D627D; 
+h1 {
+    font-size:36px;
 }
-footer{
-
-
-    background-color:#BDDAFF; 
+h2 {
+    color: blueviolet;
+}
+}
+p {
+ font-size: 18px;
+ line-height: 1.6;
 }
