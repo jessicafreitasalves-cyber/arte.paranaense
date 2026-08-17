@@ -1,11 +1,11 @@
 Body{
-     background-color: green;
-     color: yellow
+     background-color: #F6F7AD;
+     color: #F6F7AD;
      font-family: Arial, sans-serif;
 }
 header{
-    backgrond-color:#3F4D00;
-    color:#3F4D00;
+    backgrond-color:#FEFFBF;
+    color:#FEFFBF;
     text-align: center;
     padding: 30px;
 }
@@ -13,7 +13,7 @@ h1 {
     font-size:36px;
 }
 h2 {
-    color: blueviolet;
+    color: #B83B2A;
 }
 }
 p {
@@ -27,7 +27,7 @@ main {
 }
 
 section {
-    background-color: aliceblue;
+    background-color: #F9FAA2;
     margin: 20px 0;
     padding: 20px;
     bonder-radius: 12px;
