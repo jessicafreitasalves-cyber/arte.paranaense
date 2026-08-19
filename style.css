@@ -27,6 +27,23 @@ main {
     margin: auto;
 }
 
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color: white;
+    text-deoration: none;
+    background-color: #B83B2A;
+    padding: 10px 15px;
+    bonder-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav a:hover{
+    background-color:aliceblue
+}
 section {
     background-color: #F9FAA2;
     margin: 20px 0;
@@ -48,4 +65,24 @@ figcaption {
     color: hfihfweuiu
     margin-top: 8px;
 
+} 
+
+card{
+     background-color: #f3d9fa;
+     padding: 15px;
+     margin: 15px 0;
+     bonder-left:6px solid #6b2d5c;
+     bonder-radius: 10px;
+}
+
+card h3{
+      margin-top: 0;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
