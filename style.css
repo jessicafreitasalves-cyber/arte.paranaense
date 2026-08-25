@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #0A3323;
-    color: #839958;
+    background-color: #839958;
+    color: #0A3323;
     text-align: center;
     padding: 30px;
 }
@@ -66,7 +66,7 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #F7F4D5;
+    color: #D3968C;
     margin-top: 8px;
 }
 
