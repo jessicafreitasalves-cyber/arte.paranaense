@@ -91,7 +91,7 @@ footer {
 }
 
 button {
-    background-color: #F7F4D5;
+    background-color: #D3968C;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -100,7 +100,7 @@ button {
 }
 
 button:hover{
-    background-color: #D3968C;
+    background-color: #F7F4D5;
 }
 
 .curtir {
