@@ -83,7 +83,7 @@ figcaption {
 }
 
 footer {
-    background-color: #D3968C;
+    background-color: #839958;
     color: white;
     text-align: center;
     padding: 20px;
@@ -91,8 +91,8 @@ footer {
 }
 
 button {
-    background-color: #D3968C;
-    color: white;
+    background-color: #F7F4D5;
+    color: #839958;
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
