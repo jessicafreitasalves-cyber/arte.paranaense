@@ -1,13 +1,26 @@
+:root{
+    --cor-fundo: #f4f1ea;
+    --cor-texto: #222222;
+    --cor-principal:#D3968C;
+    --cor-secundaria:#D3968C;
+    --cor-hover: #105666;
+    --cor-superficie: #D3968C;
+    --cor-card:  #839958;
+    --cor-legenda: #D3968C ;
+    --cor-clara: #0A3323;
+    --cor-rodape: #839958;
+
+}
 body {
-    background-color: #f4f1ea;
-    color: #222222;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #839958;
-    color: #0A3323;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -17,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: #F7F4D5;
+    color: var(--cor-principal);
 }
 
 p {
@@ -30,9 +43,9 @@ nav {
 }
 
 nav a {
-    color: #F7F4D5; 
+    color: var(--cor-clara); 
     text-decoration: none;
-    background-color: #D3968C;
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -40,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #105666;
+    background-color: var(--cor-hover);
 }
 
 main {
@@ -49,7 +62,7 @@ main {
 }
 
 section {
-    background-color:#D3968C ;
+    background-color: var(--cor-superficie) ;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -66,15 +79,15 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #D3968C;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: #F7F4D5;
+    background-color: var(--cor-legenda);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #839958;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
 }
 
@@ -83,16 +96,16 @@ figcaption {
 }
 
 footer {
-    background-color: #839958;
-    color: white;
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
 button {
-    background-color: #F7F4D5;
-    color: #839958;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -100,7 +113,7 @@ button {
 }
 
 button:hover{
-    background-color: #e49f95;
+    background-color: var(--cor-hover);
 }
 
 .curtir {
