@@ -1,14 +1,14 @@
 :root{
-    --cor-fundo: #f4f1ea;
+    --cor-fundo: #FBEAD6;
     --cor-texto: #222222;
-    --cor-principal:#D3968C;
-    --cor-secundaria:#D3968C;
-    --cor-hover: #105666;
-    --cor-superficie: #D3968C;
-    --cor-card:  #839958;
-    --cor-legenda: #D3968C ;
-    --cor-clara: #0A3323;
-    --cor-rodape: #839958;
+    --cor-principal:#c87d87;
+    --cor-secundaria:#6B7556;
+    --cor-hover: #F9D1D9;
+    --cor-superficie: #E5BCA9;
+    --cor-card:  #F9D1D9;
+    --cor-legenda: #C87D87 ;
+    --cor-clara: #E5BCA9;
+    --cor-rodape: #6B7556;
 
 }
 body {
